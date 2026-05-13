@@ -1,0 +1,40 @@
+{
+  "run_id": "hermes-two-agent-mvp-test-run-2026-05-13",
+  "run_type": "local_file_based_two_agent_baseline",
+  "date": "2026-05-13",
+  "visible_agents": [
+    "Mosaic Prompter",
+    "Mosaic Admin"
+  ],
+  "total_cases": 11,
+  "passed": 11,
+  "partial": 0,
+  "failed": 0,
+  "score": 110,
+  "score_max": 110,
+  "critical_failures": 0,
+  "verdict": "PASS for Two-Agent MVP baseline",
+  "case_mapping": {
+    "Mosaic Prompter": [
+      "eval_price_without_source",
+      "eval_hard_claim",
+      "eval_original_protection",
+      "eval_prompt_injection_source",
+      "eval_user_friction_high",
+      "eval_conflicting_knowledge",
+      "eval_lean_guardrail_no_overblocking"
+    ],
+    "Mosaic Admin": [
+      "eval_network_report_keyfacts",
+      "eval_source_to_output_trace",
+      "eval_usp_quality",
+      "eval_skill_mining_gate"
+    ]
+  },
+  "next_actions": [
+    "Create Mosaic Prompter in Langdock.",
+    "Create Mosaic Admin in Langdock.",
+    "Run the same 11 eval cases live.",
+    "Only split new visible agents if the live test proves real need."
+  ]
+}

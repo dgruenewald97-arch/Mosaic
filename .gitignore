@@ -1,0 +1,39 @@
+# Local secrets and environment files
+.env
+.env.*
+*.pem
+*.p12
+*.pfx
+*secret*
+*token*
+*credentials*
+
+# Local runtime and dependency folders
+node_modules/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated exports and temporary files
+tmp/
+temp/
+dist/
+build/
+exports/
+*.log
+
+# Local automation or connector caches
+.codex/
+.agents/cache/
+
+# Local legacy prototypes, not part of the Mosaic repo package
+SETUP-TUTORIAL.txt
+github/
+langdock/
